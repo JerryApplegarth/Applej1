@@ -1,0 +1,16 @@
+{
+  "name": "applej1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./public/css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./public/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4"
+  }
+}
